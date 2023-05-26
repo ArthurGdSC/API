@@ -1,0 +1,90 @@
+
+
+body {
+    background:url("../imagem/Design\ sem\ nome\ \(3\).png") no-repeat;   
+}
+
+header {
+    background-color: rgba(31, 31, 31, 0.979);
+    box-shadow: 5px 5px 80px #19d1b286;
+    height: 120px;
+    width: 100%;
+    border-radius: 0px 0px 10px 10px;
+    position: fixed;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    top: 0;
+    left: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+footer {
+
+    background-color: rgba(12, 12, 12, 0.877);
+    box-shadow: 5px 5px 80px #19d1b285;
+    height: 12%;
+    width: 100%;
+    padding-left: 5px;
+    margin-top: 10px;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+}
+
+.ok{
+    display: flex;
+    margin-top: 10%;
+    color: white;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;  
+}
+
+.position{
+    background: rgba(23, 24, 24, 0.534);
+    margin: 20px;
+    width: 330px;
+    height: 450px;
+    border-radius: 50px;
+}
+
+
+img{
+    width: 200px;
+    height: 130px;
+    margin: 30px;
+    border-radius: 35px;
+}
+
+button{
+    cursor: pointer;
+    background-color: #215599; 
+    border-radius: 40px;
+    padding: 10px 25px;
+    font-size: 20px;
+    background: linear-gradient(90deg, rgb(42, 141, 110) 0%, rgb(163, 231, 240) 40%, rgb(42, 141, 110) 100%);
+    margin-top: 23px;
+    display: flex;
+    margin-left: 100px;
+   
+}
+
+.voltar{
+    cursor: pointer;
+    background-color: #215599; 
+    border-radius: 40px;
+    font-size: 20px;
+    background: linear-gradient(90deg, rgb(42, 141, 110) 0%, rgb(163, 231, 240) 40%, rgb(42, 141, 110) 100%);
+    margin-top: 23px;
+
+    margin-left: 500px;
+    width: 100px;
+  
+}
+
+.voltar a{
+    text-decoration: none;
+    color: black;
+}

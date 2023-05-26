@@ -1,0 +1,68 @@
+/*Header lateral*/
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 200%;
+    width: 250px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+nav {
+    position: absolute;
+    margin-top: 45px;
+    left: 0px;
+    height: 150%;
+    width: 200px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+header:hover nav {
+    opacity: 1;
+}
+
+/*body*/
+
+  body {
+    background:url("../img/luffy.png");   
+}
+
+button{
+  width: 250px;
+  height:65px;
+  margin-top: 45px;
+  background: rgba(56, 55, 55, 0.795);
+  color: #fff;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+button:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+  } 
+
+
+button li{
+    list-style: none;
+}
+
+nav h1{
+    margin: 0;
+    font-size: 45px;
+    margin-left: 50px;
+}
+
+.borda{
+    width: 250px;
+    height:65px;
+    margin: 0;
+    background: rgba(56, 55, 55, 0.795);
+    border: solid rgb(150, 147, 147);
+}

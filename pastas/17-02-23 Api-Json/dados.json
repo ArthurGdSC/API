@@ -1,0 +1,26 @@
+{
+    "rock": {
+        "name": "Nirvana",
+        "album": "Unplugged in New York",
+        "style": "Rock",
+        "price": "R$ 240,90",
+        "image": "<img src='imagem/bebe.webp' width = '100px'>"
+    },
+
+    "samba": {
+        "name": "Menos é mais",
+        "album": "churrasquinho",
+        "style": "samba",
+        "price": "R$ 29,90",
+        "image": "<img src='imagem/menos.jpg' width = '100px'>"
+    },
+
+    "sertanejo": {
+        "name": "Marilha mendonça",
+        "album": "decretos reais",
+        "style": "sertanejo",
+        "price": "R$ 29,90",
+        "image": "<img src='imagem/marilia.webp' width = '100px'>"
+    }
+
+}
